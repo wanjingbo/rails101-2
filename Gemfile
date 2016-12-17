@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'devise'
 gem 'coffee-script-source', '1.8.0'
 
 group :development, :test do
