@@ -1,0 +1,12 @@
+<h2>新增文章</h2>
+
+<div>
+  <%= simple_form_for [@group,@post] do |f| %>
+    <div>
+      <%= f.input :content,input_html:{class:"form-control"} %>
+    </div>
+    <div>
+      <%= f.submit "sumbit",disable_with: "submit..." %>
+    </div>
+  <% end %>
+</div>
