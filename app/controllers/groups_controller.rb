@@ -61,7 +61,7 @@ class GroupsController < ApplicationController
 
       if current_user.is_member_of?(@group)
         current_user.quit!(@group)
-        flash[:notice] = "推出成功"
+        flash[:notice] = "退出成功"
       else
         flash[:warning] = "你不是你讨论版成员，怎么退出 XD"
       end
